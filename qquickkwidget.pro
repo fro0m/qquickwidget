@@ -36,6 +36,6 @@ FORMS    += mainwindow.ui
 RESOURCES += \
     qml.qrc
 
-#DISTFILES += \
+DISTFILES += \
 #    main.qml \
-#ResultListDelegate.qml
+ResultListDelegate.qml

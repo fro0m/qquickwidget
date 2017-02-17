@@ -8,8 +8,17 @@ ListView {
     model: DataModel {
         id: model
     }
+
     delegate: ResultListDelegate {
-        height: 40
+        width: parent.width
+        height: 300
+        onTitleClicked: {
+            if (height > 60) {
+                height = 60
+            } else {
+                height = 300
+            }
+        }
     }
 
 
