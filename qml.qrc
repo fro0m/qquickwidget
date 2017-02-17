@@ -1,1 +1,6 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ui/ResultListDelegate.qml</file>
+    </qresource>
+</RCC>
